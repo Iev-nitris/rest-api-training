@@ -6,8 +6,7 @@ import org.springframework.boot.test.context.ConfigFileApplicationContextInitial
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.testng.AbstractTestNGSpringContextTests;
 
-@ContextConfiguration(classes = {AmazonSQSConfig.class},
-        initializers = ConfigFileApplicationContextInitializer.class)
+@ContextConfiguration(classes = {AmazonSQSConfig.class}, initializers = ConfigFileApplicationContextInitializer.class)
 @EnableConfigurationProperties(value = {MongoDbProperties.class})
 public class BaseTest extends AbstractTestNGSpringContextTests {
 }
