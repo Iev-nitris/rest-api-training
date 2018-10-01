@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Full Test Suite">
+
+    <test name="Sample Test Name">
+        <classes>
+            <class name="com.my.training.PrintoutDbPropertiesTest"/>
+            <class name="com.my.training.SqsTest"/>
+        </classes>
+    </test>
+
+</suite>
